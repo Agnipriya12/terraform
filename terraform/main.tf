@@ -33,6 +33,6 @@ resource "davinci_flow" "testflow" {
   environment_id = var.pingone_environment_id
 
   # Terraform loads the exported DaVinci flow JSON
-  flow_json      = file("C:/Software/pingone-automation/flows/Change_Password.json")
+  flow_json      = file("./flows/Change_Password.json")
 
 }
